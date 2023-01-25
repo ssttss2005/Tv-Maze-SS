@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TV Maze Starter Code</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- include an external style sheet -->
+    <link rel="stylesheet" href="style.css">  
+    <link rel="manifest" href="manifest.json"> 
+    
+    <!-- include an external JavaScript file -->
+    <script src="apiexample.js"></script>
+  </head>
+  
+  <body>
+    <div id="start"> 
+     <h1>TV Shows at TV Maze</h1>
+     <input type="text" id="search" onfocus="this.value = ''">
+     <button id="button">Look Up a TV Show</button>
+    </div>
+
+    
+     <div id="main">
+  
+     </div>
+     <div id="lightbox">
+      <div id="message">Message
+       
+      </div>
+      <img id="episodeimg" src="" alt="imagebox">
+    </div>
+    
+     <br><br>
+    
+      <p>This script uses a fetch request to get TV Data from a free api called TV Maze. Please delete this paragraph from your project.</p>
+  <button onclick="backPage()" id="backbutton"><span id="backarrow">&#10150;</span>Back</button>
+  </body>
+  
+</html>
